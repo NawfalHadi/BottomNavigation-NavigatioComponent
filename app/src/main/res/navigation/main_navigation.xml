@@ -37,4 +37,9 @@
             android:id="@+id/deepLink"
             app:uri="thatnawfal.com/binarc3t4/{name}" />
     </fragment>
+    <fragment
+        android:id="@+id/anotherFragment"
+        android:name="com.thatnawfal.binarc3t4.AnotherFragment"
+        android:label="fragment_another"
+        tools:layout="@layout/fragment_another" />
 </navigation>
